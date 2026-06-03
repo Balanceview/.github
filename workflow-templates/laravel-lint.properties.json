@@ -1,0 +1,7 @@
+{
+  "name": "Laravel Lint (Pint)",
+  "description": "Check PHP code style with Laravel Pint on PHP 8.5. Fails on unformatted code.",
+  "iconName": "example",
+  "categories": ["PHP", "Laravel", "Linting"],
+  "filePatterns": ["artisan$"]
+}

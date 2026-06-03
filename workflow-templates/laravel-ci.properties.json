@@ -1,0 +1,7 @@
+{
+  "name": "Laravel CI (PHP 8.5 + MySQL)",
+  "description": "Run Laravel tests on PHP 8.5 with a MySQL service. Builds frontend assets and runs php artisan test.",
+  "iconName": "example",
+  "categories": ["PHP", "Laravel"],
+  "filePatterns": ["artisan$", "composer.json$"]
+}
