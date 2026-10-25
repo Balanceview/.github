@@ -5,11 +5,16 @@
 <p align="center">
 <a href="https://www.balanceview.in/it-services"><img src="https://img.shields.io/badge/Website-balanceview.in-4F46B5?style=flat-square&labelColor=16183A&logo=googlechrome&logoColor=white" alt="Website: balanceview.in" height="28"></a>
 <a href="mailto:itsolutions@balanceview.in"><img src="https://img.shields.io/badge/Email-itsolutions%40balanceview.in-4F46B5?style=flat-square&labelColor=16183A&logo=gmail&logoColor=white" alt="Email: itsolutions@balanceview.in" height="28"></a>
+<a href="https://wa.me/918200682062"><img src="https://img.shields.io/badge/WhatsApp-%2B91_82006_82062-4F46B5?style=flat-square&labelColor=16183A&logo=whatsapp&logoColor=white" alt="WhatsApp: +91 82006 82062" height="28"></a>
 </p>
 
 <p align="center">BalanceView builds websites, web apps, APIs, mobile apps and business software for companies across India, from Ahmedabad. You get the full source code of what we build.</p>
 
 <img src="assets/tiles.webp" width="100%" alt="What we do. Web development: Websites, web apps, online stores and SaaS products in Laravel, Vue and React, plus upgrades for older PHP apps. Backend and APIs: REST and GraphQL APIs in Laravel and Node.js, and database tuning for systems that have slowed down. Mobile apps: iOS and Android apps in React Native or Flutter, released to the App Store and Google Play. CMS and WordPress: Custom WordPress themes and plugins, and headless CMS setups your team can edit. Cloud and integrations: AWS hosting, payment gateway integration, and CI/CD pipelines that test and deploy your code. Cybersecurity: Security audits, penetration tests, secure code reviews, incident response, ISO 27001, SOC 2 and PCI DSS prep. Desktop software: Windows software for billing, inventory and back office work, with offline working and cloud sync.">
+
+<img src="assets/toolkit.webp" width="100%" alt="Tech we use. Backend: PHP, Laravel, Filament, Livewire, MySQL, Redis, Composer. Frontend: TypeScript, React, Vue, Inertia, Tailwind, Vite, Astro. Testing, delivery: Pest, Playwright, Larastan, Actions, Docker, Git, Cloudflare. CMS: WordPress, WooCommerce, Elementor, Bootstrap, Hostinger.">
+
+<img src="assets/ship.webp" width="100%" alt="How we ship. git push (branch + PR), then Pint (code style), then Larastan (static analysis), then Pest (tests), then Playwright (real browser), then Deploy (after green CI), then Live check (pages + headers).">
 
 <img src="assets/work.webp" width="100%" alt="Live work. 13 sites we built and run. Client code stays private.">
 
@@ -19,34 +24,15 @@
 </p>
 
 <p align="center">
-<a href="https://mahalifepaths.in"><img src="assets/work-mahalifepaths.webp" width="49%" alt="Maha Life Paths: Vedic astrology, numerology and vastu consultancy with service and enquiry flows. Built with Laravel 12, Filament 5, Inertia 2, React 19."></a>
-<a href="https://margdestination.com"><img src="assets/work-margdestination.webp" width="49%" alt="Marg Destination: Travel and tour operator with enquiry and booking flows. Built with Laravel 12, Filament 5, Inertia 2, React 19."></a>
-</p>
-
-<p align="center">
-<img src="assets/work-wages.webp" width="49%" alt="Wages App: Payroll and wage management with role-based permissions, activity logging and reporting dashboards. Built with Laravel 13, Filament 5, Inertia 2, React 19.">
 <a href="https://superfast.balanceview.in"><img src="assets/work-superfast.webp" width="49%" alt="SuperFast Roadways: Freight company site and operations app with Excel exports, rebuilt from a legacy Laravel 5.7 + Vue 2 codebase. Built with Laravel 12, Filament 5, Livewire."></a>
-</p>
-
-<p align="center">
-<a href="https://uniquepalace.balanceview.in"><img src="assets/work-uniquepalace.webp" width="49%" alt="Unique Palace: Gift store for birthdays, anniversaries and festivals, with a back office: menu builder, roles, activity log and scheduled backups. Built with Laravel 13, Filament 5, Inertia 3, React 19."></a>
-<a href="https://grocerystore.balanceview.in"><img src="assets/work-grocery.webp" width="49%" alt="Grocery Store: Online store and back office with role-based permissions and analytics charts. Built with Laravel 12, Filament 5, Inertia 2, React 19."></a>
-</p>
-
-<p align="center">
 <a href="https://hdstudio.co.in"><img src="assets/work-hdstudio.webp" width="49%" alt="HD Studio: Drone photography, videography and survey studio in Ahmedabad. Built with Astro 7, TypeScript, Tailwind 4, GSAP."></a>
+</p>
+
+<p align="center">
+<a href="https://grocerystore.balanceview.in"><img src="assets/work-grocery.webp" width="49%" alt="Grocery Store: Online store and back office with role-based permissions and analytics charts. Built with Laravel 12, Filament 5, Inertia 2, React 19."></a>
 <a href="https://radiocodess.com"><img src="assets/work-radiocode.webp" width="49%" alt="Radio Code: Car radio unlock-code platform: public site, admin back office, API and several connected apps. Built with Laravel, Blade, Vue, MySQL."></a>
 </p>
 
-<p align="center">
-<a href="https://margmigration.com"><img src="assets/work-margmigration.webp" width="49%" alt="Marg Migration: Immigration consultancy covering six countries and several visa categories. Built with WordPress, Custom theme."></a>
-<a href="https://scarlettplanners.com"><img src="assets/work-scarlett.webp" width="49%" alt="Scarlett Planners: Event planning studio site. Built with WordPress, Elementor, Custom theme."></a>
-</p>
+<img src="assets/more.webp" width="100%" alt="More work: Maha Life Paths (Consultancy, Laravel 12, Filament 5, Inertia 2, React 19); Marg Destination (Travel, Laravel 12, Filament 5, Inertia 2, React 19); Wages App (Payroll, admin only, Laravel 13, Filament 5, Inertia 2, React 19); Unique Palace (Gift shop, Laravel 13, Filament 5, Inertia 3, React 19); Marg Migration (WordPress, WordPress, Custom theme); Scarlett Planners (WordPress, WordPress, Elementor, Custom theme); Viz Design Solutions (Static PHP, PHP, Bootstrap).">
 
-<p align="center">
-<a href="https://vizdesign.balanceview.in"><img src="assets/work-vizdesign.webp" width="49%" alt="Viz Design Solutions: Interior design studio site, Ahmedabad. Built with PHP, Bootstrap."></a>
-</p>
-
-<img src="assets/ship.webp" width="100%" alt="How we ship. git push (branch + PR), then Pint (code style), then Larastan (static analysis), then Pest (tests), then Playwright (real browser), then Deploy (after green CI), then Live check (pages + headers).">
-
-<img src="assets/footer.webp" width="100%" alt="Talk to the IT team. itsolutions@balanceview.in, balanceview.in/it-services.">
+<img src="assets/footer.webp" width="100%" alt="Talk to the IT team. itsolutions@balanceview.in, +91 82006 82062, balanceview.in/it-services.">
