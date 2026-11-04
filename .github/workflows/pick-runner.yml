@@ -1,0 +1,44 @@
+name: Pick runner
+
+# GitHub has no runner priority, so this picks one: an idle Oracle runner first,
+# then an idle PC runner, else Oracle again (wait there, since the PC is often off).
+on:
+  workflow_call:
+    inputs:
+      picker-runner:
+        description: Where this short job itself runs (the caller passes vars.PR_RUNNER).
+        type: string
+        default: ''
+    outputs:
+      runner:
+        description: JSON label list for runs-on, e.g. ["self-hosted","oci"].
+        value: ${{ jobs.pick.outputs.runner }}
+    secrets:
+      RUNNER_READ_TOKEN:
+        description: Fine-grained token, Balanceview org, Self-hosted runners read-only.
+        required: true
+
+permissions: {}
+
+jobs:
+  pick:
+    name: Pick runner
+    runs-on: ${{ inputs.picker-runner || 'ubuntu-latest' }}
+    timeout-minutes: 2
+    outputs:
+      runner: ${{ steps.pick.outputs.runner }}
+    steps:
+      - id: pick
+        env:
+          GH_TOKEN: ${{ secrets.RUNNER_READ_TOKEN }}
+        run: |
+          idle() {
+            gh api orgs/Balanceview/actions/runners --paginate \
+              --jq "[.runners[] | select(.status == \"online\" and (.busy | not) and any(.labels[]; .name == \"$1\"))] | length" \
+              2>/dev/null | awk '{s += $1} END {print s + 0}'
+          }
+          oci=$(idle oci)
+          pc=$(idle X64)
+          if [ "$oci" -eq 0 ] && [ "$pc" -gt 0 ]; then label=X64; else label=oci; fi
+          echo "idle: oci=$oci pc=$pc -> $label"
+          echo "runner=[\"self-hosted\",\"$label\"]" >> "$GITHUB_OUTPUT"
