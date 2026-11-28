@@ -34,10 +34,9 @@ jobs:
         if: ${{ !cancelled() && hashFiles('package-lock.json') != '' }}
         run: npm audit --omit=dev --audit-level=high
 
-      # Report-only until each repo's first findings are triaged; remove this line to make it block.
+      # Blocks on any finding; a repo's triaged false positives live in its .gitleaks.toml or .gitleaksignore.
       - name: Secret scan (gitleaks)
         if: ${{ !cancelled() }}
-        continue-on-error: true
         run: |
           set -euo pipefail
           case "$(uname -m)" in
